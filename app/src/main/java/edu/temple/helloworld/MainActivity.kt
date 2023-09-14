@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         
         // Respond to button click event per specifications
         clickMeButton.setOnClickListener{
-            displayTextView.text= nameEditText.text
+            displayTextView.text= "Hello, "+ nameEditText.text
         }
 
     }
